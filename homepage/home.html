@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bellzup — Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="appbar">
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="appbar__title">Bellzup</div>
+    <div class="appbar__spacer"></div>
+  </header>
+
+  
+  <main class="surface">
+    <nav class="topnav">
+      <a class="brand" href="#">
+        <span class="brand-b">B</span>ELLZUP
+      </a>
+
+      <ul class="menu">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Restaurants</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Offers</a></li>
+      </ul>
+
+      <form class="search" role="search" aria-label="Search food">
+        <input type="search" placeholder="Search Food" />
+      </form>
+    </nav>
+    <section class="hero">
+      <div class="hero__text">
+        <h1>
+          Dive into Delights<br />
+          Of Delectable <span class="accent">Food</span>
+        </h1>
+        <p class="lede">
+          Where Each Plate Weaves a Story of Culinary
+          Mastery and Passionate Craftsmanship
+        </p>
+
+        <a href="#" class="btn btn-accent">Place A Reservation</a>
+      </div>
+
+      <div class="hero__media">
+        <div class="hero__img">
+          <!-- img/placeholder — replace with your chef image -->
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop" alt="Chef presenting a dish" />
+          <span class="chip">Hot spicy Food</span>
+        </div>
+
+        <!-- Floating mini cards -->
+        <div class="float-card left">
+          <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=600&auto=format&fit=crop" alt="Fufu and Kati Kati" />
+          <div class="fc-body">
+            <p class="fc-title">Fufu and Kati Kati</p>
+            <div class="fc-meta">
+              <span class="stars">★★★★☆</span>
+              <span class="price">3000frs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="float-card right">
+          <img src="https://images.unsplash.com/photo-1604908554007-5f19a1b7a5f0?q=80&w=600&auto=format&fit=crop" alt="Ndole and Plantain" />
+          <div class="fc-body">
+            <p class="fc-title">Ndole and Plantain</p>
+            <div class="fc-meta">
+              <span class="stars">★★★★☆</span>
+              <span class="price">3000frs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <p class="eyebrow">Customer Favorites</p>
+      <div class="section__header">
+        <h2>Popular Food Categories</h2>
+      </div>
+
+      <div class="pill-grid">
+        <article class="cat-card">
+          <div class="cat-thumb">
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=600&auto=format&fit=crop" alt="Fufu and Kati Kati" />
+          </div>
+          <h3>Fufu and Kati Kati</h3>
+          <p class="cat-price">3000frs</p>
+        </article>
+
+        <article class="cat-card">
+          <div class="cat-thumb">
+            <img src="https://images.unsplash.com/photo-1604908176997-431f7090774f?q=80&w=600&auto=format&fit=crop" alt="Egussi and Bobolo" />
+          </div>
+          <h3>Egussi and Bobolo</h3>
+          <p class="cat-price">3000frs</p>
+        </article>
+
+        <article class="cat-card">
+          <div class="cat-thumb">
+            <img src="https://images.unsplash.com/photo-1611765083444-a44f6a8b5e64?q=80&w=600&auto=format&fit=crop" alt="Corn Chaff" />
+          </div>
+          <h3>Corn Chaff</h3>
+          <p class="cat-price">3000frs</p>
+        </article>
+
+        <article class="cat-card">
+          <div class="cat-thumb">
+            <img src="https://images.unsplash.com/photo-1544025162-8c1f1a9bcdbe?q=80&w=600&auto=format&fit=crop" alt="Garri and Eru" />
+          </div>
+          <h3>Garri and Eru</h3>
+          <p class="cat-price">3000frs</p>
+        </article>
+      </div>
+    </section>
+
+  
+    <section class="section">
+      <p class="eyebrow">Special Dishes</p>
+      <div class="section__header">
+        <h2>Standout Dishes<br />From Our Menu</h2>
+        <a href="#" class="btn btn-soft">View More</a>
+      </div>
+
+      <div class="card-row">
+        <article class="dish-card">
+          <div class="dish-media">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1200&auto=format&fit=crop" alt="Fufu Corn and Kati Kati" />
+          </div>
+          <div class="dish-body">
+            <h3>Fufu Corn and Kati Kati</h3>
+            <p class="sub">From <strong>Romz</strong> &nbsp;•&nbsp; <span class="loc">Mile 3 Nkwen</span></p>
+            <div class="dish-meta">
+              <span class="price">3000frs</span>
+              <span class="rating">★ 4.9</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card">
+          <div class="dish-media">
+            <img src="https://images.unsplash.com/photo-1604908554311-9c6ad119258b?q=80&w=1200&auto=format&fit=crop" alt="Achu and Yellow Soup" />
+          </div>
+          <div class="dish-body">
+            <h3>Achu and Yellow Soup</h3>
+            <p class="sub">From <strong>Dream Land</strong> &nbsp;•&nbsp; <span class="loc">Mile 2 Nkwen</span></p>
+            <div class="dish-meta">
+              <span class="price">3000frs</span>
+              <span class="rating">★ 4.6</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card">
+          <div class="dish-media">
+            <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1200&auto=format&fit=crop" alt="Roasted Fish" />
+          </div>
+          <div class="dish-body">
+            <h3>Roasted Fish</h3>
+            <p class="sub">From <strong>Plush House</strong> &nbsp;•&nbsp; <span class="loc">Up-Station</span></p>
+            <div class="dish-meta">
+              <span class="price">10000frs</span>
+              <span class="rating">★ 4.5</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Special Restaurants</p>
+      <div class="section__header">
+        <h2>Standout Restaurants<br />with Best Dishes</h2>
+        <a href="#" class="btn btn-soft">View More</a>
+      </div>
+
+      <div class="resto-grid">
+        <article class="resto-item">
+          <div class="resto-info">
+            <h3>Romz</h3>
+            <p class="loc">Mile 3 Nkwen</p>
+            <p class="blurb">A cozy classic restaurant just opposite Town’s Eye, Mile 3 Nkwen.</p>
+            <div class="resto-meta">
+              <span class="rating">★ 4.9</span>
+              <a href="#" class="view-link">View Dishes</a>
+            </div>
+          </div>
+          <div class="resto-media">
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=600&auto=format&fit=crop" alt="Signature dish" />
+          </div>
+        </article>
+
+        <article class="resto-item">
+          <div class="resto-info">
+            <h3>Dream Land</h3>
+            <p class="loc">Mile 3 Nkwen</p>
+            <p class="blurb">A cozy classic restaurant just opposite Town’s Eye, Mile 3 Nkwen.</p>
+            <div class="resto-meta">
+              <span class="rating">★ 4.9</span>
+              <a href="#" class="view-link">View Dishes</a>
+            </div>
+          </div>
+          <div class="resto-media">
+            <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=600&auto=format&fit=crop" alt="Signature dish" />
+          </div>
+        </article>
+
+        <article class="resto-item">
+          <div class="resto-info">
+            <h3>Mami KoKI</h3>
+            <p class="loc">Mile 3 Nkwen</p>
+            <p class="blurb">A cozy classic restaurant just opposite Town’s Eye, Mile 3 Nkwen.</p>
+            <div class="resto-meta">
+              <span class="rating">★ 4.9</span>
+              <a href="#" class="view-link">View Dishes</a>
+            </div>
+          </div>
+          <div class="resto-media">
+            <img src="https://images.unsplash.com/photo-1544025162-8c1f1a9bcdbe?q=80&w=600&auto=format&fit=crop" alt="Signature dish" />
+          </div>
+        </article>
+
+        <article class="resto-item">
+          <div class="resto-info">
+            <h3>Troys Eatery</h3>
+            <p class="loc">Mile 3 Nkwen</p>
+            <p class="blurb">A cozy classic restaurant just opposite Town’s Eye, Mile 3 Nkwen.</p>
+            <div class="resto-meta">
+              <span class="rating">★ 4.9</span>
+              <a href="#" class="view-link">View Dishes</a>
+            </div>
+          </div>
+          <div class="resto-media">
+            <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=600&auto=format&fit=crop" alt="Signature dish" />
+          </div>
+        </article>
+
+        <article class="resto-item">
+          <div class="resto-info">
+            <h3>Plush House</h3>
+            <p class="loc">Up-Station</p>
+            <p class="blurb">A cozy classic restaurant just opposite Town’s Eye, Mile 3 Nkwen.</p>
+            <div class="resto-meta">
+              <span class="rating">★ 4.5</span>
+              <a href="#" class="view-link">View Dishes</a>
+            </div>
+          </div>
+          <div class="resto-media">
+            <img src="https://images.unsplash.com/photo-1604908176997-431f7090774f?q=80&w=600&auto=format&fit=crop" alt="Signature dish" />
+          </div>
+        </article>
+
+        <article class="resto-item">
+          <div class="resto-info">
+            <h3>Laliga</h3>
+            <p class="loc">Mile 3 Nkwen</p>
+            <p class="blurb">A cozy classic restaurant just opposite Town’s Eye, Mile 3 Nkwen.</p>
+            <div class="resto-meta">
+              <span class="rating">★ 4.9</span>
+              <a href="#" class="view-link">View Dishes</a>
+            </div>
+          </div>
+          <div class="resto-media">
+            <img src="https://images.unsplash.com/photo-1611765083444-a44f6a8b5e64?q=80&w=600&auto=format&fit=crop" alt="Signature dish" />
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+    <section class="section">
+      <p class="eyebrow">Testimonials</p>
+      <h2 class="section__title">What Our Customers<br />Say About Us</h2>
+
+      <div class="testi-grid">
+    
+        <article class="testi">
+          <img class="avatar" src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=256&auto=format&fit=crop" alt="Mariam" />
+          <div class="t-body">
+            <h4>Mariam</h4>
+            <p>“I had the pleasure of dining at Foodi last night, and I’m still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
+          </div>
+        </article>
+
+        <article class="testi">
+          <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=256&auto=format&fit=crop" alt="Mariam" />
+          <div class="t-body">
+            <h4>Mariam</h4>
+            <p>“I had the pleasure of dining at Foodi last night, and I’m still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
+          </div>
+        </article>
+
+        <article class="testi">
+          <img class="avatar" src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=256&auto=format&fit=crop" alt="Mariam" />
+          <div class="t-body">
+            <h4>Mariam</h4>
+            <p>“I had the pleasure of dining at Foodi last night, and I’m still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
+          </div>
+        </article>
+
+        <article class="testi">
+          <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=256&auto=format&fit=crop" alt="Mariam" />
+          <div class="t-body">
+            <h4>Mariam</h4>
+            <p>“I had the pleasure of dining at Foodi last night, and I’m still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+    <footer class="footer">
+      <div class="footer__cols">
+        <div class="f-col">
+          <div class="brand brand--footer"><span class="brand-b">B</span>ELLZUP</div>
+          <p class="foot-blurb">Savor the artistry where every dish is a culinary masterpiece</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook" class="soc"><svg viewBox="0 0 24 24"><path d="M13 22v-9h3l1-4h-4V7a1 1 0 0 1 1-1h3V2h-3a5 5 0 0 0-5 5v2H6v4h3v9h4z"/></svg></a>
+            <a href="#" aria-label="Instagram" class="soc"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5a5 5 0 1 0 0 10 1 0 0 3 1.5 1.5 0 0 0 0-3zM12 9a3 3 0 1"/></svg></a>
+            <a href="#" aria-label="Twitter" class="soc"><svg viewBox="0 0 24 24"><path d="M22 5.8a8 8 0 0 1-2.3.6 4 4 0 0 0 1.8-2.2 8 8 0 0 1-2.5 1 4 4 0 0 0-6.9 3.6A11.4 11.4 0 0 1 3 4.7a4 4 0 0 0 1.2 5.3 4 4 0 0 1-1.8-.5 4 4 0 0 0 3.2 4 4 4 0 0 1-1.8.1 4 4 0 0 0 3.8 2.8A8 8 0 0 1 2 18.6 11.3 11.3 0 0 0 8.1 20c7.5 0 11.7-6.2 11.7-11.6v-.5A8 8 0 0 0 22 5.8z"/></svg></a>
+            <a href="#" aria-label="YouTube" class="soc"><svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.5 12 4.5 12 4.5s-7 0-8.9.6A3 3 0 0 0 1 7.2 31.8 31.8 0 0 0 .5 12 31.8 31.8 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1C5 19.5 12 19.5 12 19.5s7 0 8.9-.6a3 3 0 0 0 2.1-2.1 31.8 31.8 0 0 0 .5-4.8 31.8 31.8 0 0 0-.5-4.8zM9.8 15.2v-6L15.5 12l-5.7 3.2z"/></svg></a>
+          </div>
+        </div>
+
+        <div class="f-col">
+          <h4>Useful links</h4>
+          <ul class="f-links">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="f-col">
+          <h4>Main Menu</h4>
+          <ul class="f-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Restaurant</a></li>
+            <li><a href="#">Reservation</a></li>
+          </ul>
+        </div>
+
+        <div class="f-col">
+          <h4>Contact Us</h4>
+          <ul class="f-links">
+            <li><a href="mailto:bellzup@email.com">bellzup@email.com</a></li>
+            <li><a href="tel:+649582489">+64 958 248 96</a></li>
+            <li><a href="#">Social media</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        Copyright © 2025 Bellzup | All rights reserved
+      </div>
+    </footer>
+  </main>
+
+</body>
+</html>
