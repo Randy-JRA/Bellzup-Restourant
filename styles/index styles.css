@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.search-bar {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color:#28a745
+}
+
+.profile {
+    font-size: 24px;
+}
+
+.about-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section h1 {
+    color: #28a745;
+}
+
+.about-us img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.story-mission {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.team, .mission {
+    text-align: left;
+    max-width: 45%;
+}
+
+.contact-section {
+    background-color: #0067d4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position:colonm;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.contact-section input, .contact-section textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px;
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chef-illustration {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    background: url('https://via.placeholder.com/150') no-repeat;
+    background-size: contain;
+}
+
+.gallery-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+}
+
+.footer-column {
+    text-align: left;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
