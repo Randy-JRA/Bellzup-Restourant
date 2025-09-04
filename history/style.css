@@ -1,0 +1,214 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+/* Navbar (unchanged from your original) */
+span {
+    text-decoration: none;
+    color: #28a745;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #28a745;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+.hero h1 {
+    font-size: 50px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #28a745;
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background: transparent;
+    color: white;
+}
+.search-bar input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar button {
+    background: #28a745;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Main Content */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Sections */
+.ongoing-section, .history-section {
+    flex: 1;
+    min-width: 45%;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual Order Card */
+.order-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* Space between header and buttons */
+}
+
+.order-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;  /* Space between image and details */
+}
+
+.order-image {
+    width: 80px;  /* Slightly larger to match screenshot */
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #dc3545;  /* Red border like burger logo in screenshot; adjust if needed */
+}
+
+.order-details {
+    flex: 1;
+}
+
+.order-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;  /* Dark text for restaurant */
+}
+
+.order-details p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #666;  /* Lighter text for meal/info */
+}
+
+.order-date {
+    font-size: 0.9em;
+    color: #999;  /* Gray for date */
+    margin-left: auto;  /* Push to right */
+    white-space: nowrap;
+}
+
+.order-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;  /* Equal width */
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #28a745;
+    border: 1px solid #28a745;
+}
+
+/* Footer (unchanged) */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li a {
+    text-decoration: none;
+    color: #666;
+    line-height: 1.5;
+}
